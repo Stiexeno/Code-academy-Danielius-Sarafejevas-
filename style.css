@@ -1,0 +1,22 @@
+.center{
+	text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.green{
+	background-color: green;
+}
+.red{
+	background-color: red;
+}
+
+table tr:nth-child(even){
+	background-color: rgb(240,240,240);
+}
+table tr:nth-child(add){
+	background-color: #eaeaea;
+}
